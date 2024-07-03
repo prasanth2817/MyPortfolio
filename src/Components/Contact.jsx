@@ -21,7 +21,7 @@ function Contact() {
         </h2>
         <div className={`${ darkMode ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-700"} flex flex-col 1024x1366:flex-col md:gap-8 lg:flex-row items-center justify-around p-8 rounded-lg shadow-lg`}>
           <img
-            className="w-full md:w-7/12 xl:w-4/12 mb-8 md:mb-0"
+            className="w-full md:w-6/12 lg:w-5/12 xl:w-4/12 mb-8 md:mb-0"
             src={contactImage}
             alt="contactIcon"
           />
