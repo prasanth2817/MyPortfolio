@@ -13,7 +13,7 @@ const About = () => {
             Me
           </span>
         </h2>
-        <div className="flex flex-col items-center lg:flex-row 1024x1366:flex-col xl:justify-around lg:gap-8 xl:gap-12">
+        <div className="flex flex-col items-center lg:flex-row 1024x1366:flex-col xl:justify-around lg:gap-8 xl:gap-12 gap-8">
           <div className="lg:mb-0">
             <img
               src={Profilephoto1}
