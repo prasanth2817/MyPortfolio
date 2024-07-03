@@ -27,14 +27,14 @@ function Home() {
           <h2 className="text-3xl xs:text-4xl md:text-5xl lg:text-4xl 1024x1366:text-6xl xl:text-6xl font-extrabold tracking-wide text-blue-900">
             Hi There,
             <br /> I'm{" "}
-            <span className="text-4xl xs:text-5xl md:text-6xl lg:text-5xl 1024x1366:text-7xl font-bold text-orange-600">
+            <span className="text-4xl xs:text-5xl md:text-6xl lg:text-5xl xl:text-7xl 1024x1366:text-7xl font-bold text-orange-600">
               Prasanth
             </span>
           </h2>
-          <p className="text-xl sm:text-2xl xs:font-semibold py-4 md:text-3xl 1024x1366:text-5xl font-medium text-gray-600">
-            I Am Into <span className="text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-4xl 1024x1366:text-6xl font-bold">{<DynamicText />}</span>
+          <p className="text-xl sm:text-2xl xs:font-semibold py-4 md:text-3xl 1024x1366:text-5xl xl:text-4xl font-medium text-gray-600">
+            I am Into <span className="text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-4xl 1024x1366:text-6xl xl:text-5xl font-bold">{<DynamicText />}</span>
           </p>
-          <div className="btn absolute mt-4 lg:mt-8 px-6 py-4 bg-blue-800 text-gray-200 font-bold text-2xl 1024x1366:text-3xl rounded-3xl">
+          <div className="btn absolute mt-4 lg:mt-8 px-6 xl:px-8 py-4 xl:py-6 bg-blue-800 text-gray-200 font-bold text-2xl 1024x1366:text-3xl xl:text-3xl rounded-3xl">
           <a href="#about" >
             <span>About Me</span>
             <i className="fas fa-arrow-circle-down"></i>
