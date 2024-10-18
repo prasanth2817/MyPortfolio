@@ -1,6 +1,8 @@
 // Context/ProjectContext.js
 import React, { createContext, useContext } from "react";
 import projectOne from "../Images/ProjectOne-Image.jpg";
+import ChatApp from "../Images/Chat-app-image2.png";
+import RealEstateApp from "../Images/RealEstate-App.png"
 
 const ProjectDataContext = createContext();
 
@@ -24,11 +26,33 @@ export const ProjectContext = ({ children }) => {
       title: "MyBarber Application",
       description:
         "MyBarber is an intuitive booking platform designed to streamline appointments for barbers and clients. Enhance your grooming experience with easy scheduling, personalized profiles, and real-time updates.",
-      imageUrl: projectOne,
+      imageUrl : projectOne,
       technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
-      frontendUrl: "https://github.com/prasanth2817/Ecommerce-app-Frontend",
-      backendUrl: "https://github.com/prasanth2817/Ecommerce-app-Backend",
+      frontendUrl: "https://github.com/prasanth2817/MyBarber-App-Frontend",
+      backendUrl: "https://github.com/prasanth2817/MyBarber-App-Backend",
       liveLink: "https://ecommerce-platform-clothing.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "Chat Application",
+      description:
+        "This chat application providing real-time messaging using Socket.IO and managing state with Zustand on the frontend. It includes JWT authentication, MongoDB for storing user data and chats, and follows the MVC pattern for maintainable backend code.",
+      imageUrl : ChatApp ,
+      technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
+      frontendUrl: "https://github.com/prasanth2817/Chat-Application-Frontend",
+      backendUrl: "https://github.com/prasanth2817/Chat-Application-Backend",
+      liveLink: "https://chat-app-wechat.netlify.app/",
+    },
+    {
+      id: 4,
+      title: "RealEstate Listing Application",
+      description:
+        "A comprehensive real estate listing application built using the MERN stack (MongoDB, Express, React, Node.js). This application allows users to search for properties, manage property listings, and update property statuses.",
+      imageUrl : RealEstateApp ,
+      technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
+      frontendUrl: "https://github.com/prasanth2817/Chat-Application-Frontend",
+      backendUrl: "https://github.com/prasanth2817/Chat-Application-Backend",
+      liveLink: "https://chat-app-wechat.netlify.app/",
     },
   ];
 

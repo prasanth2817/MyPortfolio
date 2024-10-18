@@ -1,4 +1,3 @@
-import React from "react";
 import contactImage from "../Images/contactImage.png";
 import { useDarkMode } from "../Context/DarkModeContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,4 +1,3 @@
-import React from "react";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -23,10 +22,10 @@ function Home() {
       <Navbar />
       <section
         className="flex flex-col 1024x1366:mt-12 lg:p-8 justify-around xs:justify-evenly 1024x1366:flex-col 1024x1366:justify-normal 1024x1366:pt-16 relative top-4 lg:top-16 sm:top-4 lg:flex-row py-20 lg:py-0 md:h-screen home" id="home">
-        <div className="order-2 1024x1366:order-2 lg:order-1 content py-4 lg:px-4 sm:py-4 md:py-0 relative lg:top-20 lg:w-full xl:mt-16 z-10">
+        <div className="order-2 1024x1366:order-2 lg:order-1 content py-4 lg:px-4 sm:py-4 md:py-0 relative lg:top-20 lg-xl:top-32 lg:w-full xl:mt-16 z-10">
           <h2 className="text-3xl xs:text-4xl md:text-5xl lg:text-4xl 1024x1366:text-6xl xl:text-6xl font-extrabold tracking-wide text-blue-900">
             Hi There,
-            <br /> I'm{" "}
+            <br /> I am{" "}
             <span className="text-4xl xs:text-5xl md:text-6xl lg:text-5xl xl:text-7xl 1024x1366:text-7xl font-bold text-orange-600">
               Prasanth
             </span>
@@ -44,7 +43,7 @@ function Home() {
   <ul className="social-icons space-x-4 p-0 mb-0 list-none">
     <li className="inline-block mb-6 md:mb-8 lg:mb-10">
       <a
-        className="linkedin inline-block text-2xl md:text-4xl leading-[44px] md:leading-[58px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#007bb6]"
+        className="linkedin inline-block text-2xl md:text-4xl lg-xl:text-3xl leading-[44px] md:leading-[58px] lg-xl:leading-[52px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 lg-xl:w-12 lg-xl:h-12 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#007bb6]"
         aria-label="LinkedIn"
         href="https://www.linkedin.com/in/prasanth-k-100b5517b"
         target="_blank"
@@ -54,7 +53,7 @@ function Home() {
     </li>
     <li className="inline-block mb-6 md:mb-8 lg:mb-10">
       <a
-        className="github inline-block text-2xl md:text-4xl leading-[44px] md:leading-[58px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#0e0e0e]"
+        className="github inline-block text-2xl md:text-4xl leading-[44px] lg-xl:text-3xl lg-xl:leading-[52px] md:leading-[58px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 lg-xl:w-12 lg-xl:h-12 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#0e0e0e]"
         aria-label="GitHub"
         href="https://github.com/prasanth2817"
         target="_blank"
@@ -64,7 +63,7 @@ function Home() {
     </li>
     <li className="inline-block mb-6 md:mb-8 lg:mb-10">
       <a
-        className="Gmail inline-block text-2xl md:text-4xl leading-[44px] md:leading-[58px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#00aced]"
+        className="Gmail inline-block text-2xl md:text-4xl lg-xl:text-3xl leading-[44px] md:leading-[58px] lg-xl:leading-[52px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 lg-xl:w-12 lg-xl:h-12 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#00aced]"
         aria-label="Mail"
         href="mailto:prasanth2817ss@gmail.com"
         target="_blank"

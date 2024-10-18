@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { Link } from "react-scroll";
 import { useDarkMode } from "../Context/DarkModeContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,19 +24,19 @@ const Navbar = () => {
     <header
       className={`${
         darkMode ? "bg-gray-950" : "bg-gray-100"
-      } fixed top-0 h-16 sm:h-20 md:h-24 w-full`}
+      } fixed top-0 h-16 sm:h-20 md:h-24 lg-xl:h-20 w-full`}
     >
-      <div className="container conta mx-auto md:mx-4 md:w-full flex sm:mx-0 items-center justify-between lg:justify-evenly md:justify-evenly">
+      <div className="container mx-auto h-16 lg-xl:h-20 md:mx-4 md:w-full flex sm:mx-0 2xl:mx-4 md:h-24 items-center justify-between md:justify-evenly lg-xl:mx-auto lg:gap-8 lg-xl:gap-16 lg-xl:px-4 2xl:justify-between">
         {/* Logo and Mobile Menu Toggle */}
         <div
           className={`${
             darkMode ? "text-rose-900" : "text-cyan-700"
-          } order-1  hover:text-gray-400 flex justify-start items-center text-2xl font-bold`}
+          } order-1  hover:text-gray-400 flex justify-start items-center text-2xl lg-xl:text-xl font-bold`}
         >
           <a href="/">
             <FontAwesomeIcon icon={faCode} size="xl" />
           </a>
-          <span className="hidden xl:block ml-2">Prasanth.Dev</span>
+          <span className="hidden lg-xl:block xl:block ml-2">Prasanth.Dev</span>
         </div>
         {/* Dark/Light Mode Toggle */}
         <div className="order-3 ml-44 sm:ml-72 lg:ml-0">
@@ -44,7 +44,7 @@ const Navbar = () => {
             onClick={toggleDarkMode}
             className={`${
               darkMode ? "hover:bg-rose-900" : "hover:bg-cyan-600"
-            } hover:text-gray-400 w-8 h-8 md:mr-10 lg:w-12 lg:h-12 text-white rounded-full flex items-center justify-center focus:outline-none transition duration-300 ease-in-out hover:shadow-lg shadow-lg`}
+            } hover:text-gray-400 w-8 h-8 md:mr-10 lg:w-12 lg:h-12 lg-xl:h-10 lg-xl:w-10 text-white rounded-full flex items-center justify-center focus:outline-none transition duration-300 ease-in-out hover:shadow-lg shadow-lg`}
           >
             {darkMode ? (
               <FontAwesomeIcon icon={faSun} className="text-yellow-400 " />
@@ -79,7 +79,7 @@ const Navbar = () => {
 
         {/* Navbar Menu */}
         <nav
-          className={`fixed top-0 left-0 w-full h-full font-medium xl:font-normal text-xl bg-gray-900 bg-opacity-50 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${
+          className={`fixed top-0 left-0 w-full h-full font-medium xl:font-normal text-xl lg-xl:text-sm lg-xl:font-light bg-gray-900 bg-opacity-50 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${
             showMenu ? "translate-x-0" : "-translate-x-full"
           } lg:static lg:order-2 lg:bg-transparent lg:flex lg:flex-col lg:translate-x-0`}
         >
@@ -98,8 +98,8 @@ const Navbar = () => {
                   smooth={true}
                   className={`${
                     darkMode
-                      ? "text-gray-400 font-semibold text-xl"
-                      : "text-gray-950 font-semibold text-xl"
+                      ? "text-gray-400 font-semibold text-base"
+                      : "text-gray-950 font-semibold text-base"
                   } hover:text-blue-700 cursor-pointer ${
                     activeSection === section
                       ? "text-blue-500 border-b-4 border-blue-700 py-2"

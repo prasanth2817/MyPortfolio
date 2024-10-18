@@ -1,4 +1,3 @@
-import React from "react";
 import { useProjects } from "../Context/ProjectsContext";
 import { useDarkMode } from "../Context/DarkModeContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

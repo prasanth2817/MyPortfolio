@@ -1,4 +1,3 @@
-import React from "react";
 import { useSkills } from "../Context/SkillsContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +16,7 @@ const Skills = () => {
           />
           Skills & <span>Abilities</span>
         </h2>
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-16 xl:gap-10 xl:grid-cols-5 gap-8">
+        <div className="cardContent container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg-xl:grid-cols-4 lg:grid-cols-3 lg:gap-16 xl:gap-10 xl:grid-cols-5 gap-8">
           {skills.map((skill) => (
             <div
               key={skill.id}
