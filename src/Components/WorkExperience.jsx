@@ -12,11 +12,11 @@ function WorkExperience() {
       id="experience"
       className={`${darkMode ? "bg-gray-900" : "bg-white"} opacity-85 pt-16`}
     >
-      <div className="container mx-auto px-4 xl:mt-12 xl:mb-16">
+      <div className="container mx-auto px-4 xl:mt-4 xl:mb-16">
         <h2
           className={`${
             darkMode ? "text-gray-100" : "text-gray-700"
-          } text-3xl lg:text-4xl 1024x1366:text-5xl 1024x1366:py-12 font-bold text-center mb-12 pt-8`}
+          } text-3xl lg:text-2xl xl:text-4xl 1024x1366:text-5xl 1024x1366:py-12 font-bold text-center mb-12 xl:mb-8 pt-8`}
         >
           <FontAwesomeIcon icon={faBriefcase} size="lg" className="mr-2" />
           Experience

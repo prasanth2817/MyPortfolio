@@ -13,8 +13,8 @@ function Contact() {
         darkMode ? "bg-gray-950 text-gray-100" : "bg-gray-200 text-gray-700"
       }`}
     >
-      <div className="rounded-4xl  pt-16 1024x1366:pt-24 xl:mt-12 xl:mb-20">
-        <h2 className="text-2xl lg:text-4xl font-extrabold text-center mb-12 flex items-center justify-center">
+      <div className="rounded-4xl  pt-16 1024x1366:pt-24 xl:mt-8 xl:mb-20">
+        <h2 className="text-2xl lg:text-2xl xl:text-4xl font-extrabold text-center mb-12 lg:mb-4 xl:mb-12 flex items-center justify-center">
           <FontAwesomeIcon icon={faHeadset} size="2xl" className="mr-2" />
           Get In <span className="text-purple-600 ml-2">Touch</span>
         </h2>

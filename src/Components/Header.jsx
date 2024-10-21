@@ -24,7 +24,7 @@ const Navbar = () => {
     <header
       className={`${
         darkMode ? "bg-gray-950" : "bg-gray-100"
-      } fixed top-0 h-16 sm:h-20 md:h-24 lg-xl:h-20 w-full`}
+      } fixed top-0 h-16 sm:h-20 md:h-24 lg-xl:h-16 w-full`}
     >
       <div className="container mx-auto h-16 lg-xl:h-20 md:mx-4 md:w-full flex sm:mx-0 2xl:mx-4 md:h-24 items-center justify-between md:justify-evenly lg-xl:mx-auto lg:gap-8 lg-xl:gap-16 lg-xl:px-4 2xl:justify-between">
         {/* Logo and Mobile Menu Toggle */}

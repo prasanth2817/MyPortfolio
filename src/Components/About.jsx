@@ -18,11 +18,11 @@ const About = () => {
             <img
               src={Profilephoto1}
               alt="About Me"
-              className="rounded-4xl md:w-9/12 1024x1366:w-9/12 1024x1366:ml-24 md:mx-16 lg:mx-2 lg:my-2 md:my-8 lg:w-full mix-blend-luminosity transition duration-300 cursor-pointer hover:mix-blend-normal"
+              className="rounded-4xl md:w-9/12 1024x1366:w-9/12 1024x1366:ml-24 md:mx-16 lg:mx-2 lg:mt-2 md:my-8 lg:w-full mix-blend-luminosity transition duration-300 cursor-pointer hover:mix-blend-normal"
             />
           </div>
           <div className="">
-            <p className="xl:text-2xl lg:mb-4 lg:text-base 1024x1366:text-3xl md:text-2xl 1024x1366:my-8 text-justify mb-4 text-cyan-600 font-medium">
+            <p className="xl:text-2xl lg:text-lg lg:mb-4 1024x1366:text-base md:text-2xl 1024x1366:my-4 text-justify mb-4 text-cyan-600 font-medium">
               I'm Prasanth K, a Civil Engineering graduate who transitioned to
               software development through a comprehensive course on Guvi,
               specializing in MERN stack. Currently seeking entry-level
@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <button className="container mx-auto w-full sm:w-1/2 1024x1366:mt-8 1024x1366:text-3xl md:w-5/12 sm:flex sm:justify-center text-xl md:text-2xl font-bold lg:font-semibold text-gray-50 hover:bg-orange-400 bg-orange-500 rounded-xl px-6 py-2 sm:px-8 md:px-6">
               <a
-                href="https://drive.google.com/file/d/1FOJWLcTzGFrj9OLOVSfZvYyT4vQT6YpW/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/16KSrQU5bk_JBEJko-C14eAOi0SALFxC8/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -19,7 +19,7 @@ function Projects() {
       } opacity-90 pt-4`}
     >
       <div className="pt-16 1024x1366:pt-24 xl:mt-12 xl:mb-16">
-        <h2 className={"text-3xl lg:text-4xl font-extrabold text-center mb-12"}>
+        <h2 className={"text-3xl lg:text-2xl xl:text-4xl font-extrabold text-center mb-12 lg:mb-4 xl:mb-12"}>
           <FontAwesomeIcon
             icon={faLaptopCode}
             size="2xl"
@@ -27,7 +27,7 @@ function Projects() {
           />
           Projects <span className="text-orange-600">Made</span>
         </h2>
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-16 xl:mt-20 xl:gap-20">
           {projects.map((project, index) => (
             <div
               key={project.id}
