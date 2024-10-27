@@ -20,7 +20,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className="hovercontent flex flex-col items-center p-6 md:p-2 bg-white dark:bg-gray-900 rounded-lg shadow-lg hover:shadow-violet-600 "
+              className="hovercontent flex flex-col items-center p-6 md:p-2 dark:bg-gray-900 rounded-lg shadow-lg hover:shadow-violet-600 "
             >
               <img
                 className="text-xl md:text-base mb-4 lg:mb-0 rounded-full"
