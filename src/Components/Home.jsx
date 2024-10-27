@@ -45,7 +45,7 @@ function Home() {
       <a
         className="linkedin inline-block text-2xl md:text-4xl lg-xl:text-3xl leading-[44px] md:leading-[58px] lg-xl:leading-[52px] text-cyan-400 bg-[#09011b] w-11 h-11 md:w-14 md:h-14 lg-xl:w-12 lg-xl:h-12 text-center mr-2 rounded-full transition-all duration-200 ease-linear hover:text-white hover:bg-[#007bb6]"
         aria-label="LinkedIn"
-        href="https://www.linkedin.com/in/prasanth-k-100b5517b"
+        href="www.linkedin.com/in/prasanth2817"
         target="_blank"
       >
         <FontAwesomeIcon icon={faLinkedin} />

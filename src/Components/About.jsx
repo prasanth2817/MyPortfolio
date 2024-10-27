@@ -21,6 +21,14 @@ const About = () => {
               className="rounded-4xl md:w-9/12 1024x1366:w-9/12 1024x1366:ml-24 md:mx-16 lg:mx-2 lg:mt-2 md:my-8 lg:w-full mix-blend-luminosity transition duration-300 cursor-pointer hover:mix-blend-normal"
             />
           </div>
+          {/* <div className="lg:mb-0 overflow-hidden">
+            <img
+              src={Profilephoto1}
+              alt="About Me"
+              className="rounded-4xl md:w-9/12 1024x1366:w-9/12 1024x1366:ml-24 md:mx-16 lg:mx-2 lg:mt-2 md:my-8 lg:w-full mix-blend-luminosity transition duration-300 transform hover:scale-110 cursor-pointer hover:mix-blend-normal"
+            />
+          </div> */}
+
           <div className="">
             <p className="xl:text-2xl lg:text-lg lg:mb-4 1024x1366:text-base md:text-2xl 1024x1366:my-4 text-justify mb-4 text-cyan-600 font-medium">
               I'm Prasanth K, a Civil Engineering graduate who transitioned to
