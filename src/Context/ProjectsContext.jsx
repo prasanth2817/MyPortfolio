@@ -2,6 +2,7 @@ import React, { createContext, useContext } from "react";
 import projectOne from "../Images/ProjectOne-Image.jpg";
 import ChatApp from "../Images/Chat-app-image2.png";
 import RealEstateApp from "../Images/RealEstate-app-image.png"
+import MyBaberApp from "../Images/MyBaber-homeImage.png"
 
 const ProjectDataContext = createContext();
 
@@ -47,7 +48,7 @@ export const ProjectContext = ({ children }) => {
       title: "MyBarber Application",
       description:
         "MyBarber is an intuitive booking platform designed to streamline appointments for barbers and clients. Enhance your grooming experience with easy scheduling, personalized profiles, and real-time updates.",
-      imageUrl : projectOne,
+      imageUrl : MyBaberApp,
       technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
       frontendUrl: "https://github.com/prasanth2817/MyBarber-App-Frontend",
       backendUrl: "https://github.com/prasanth2817/MyBarber-App-Backend",
