@@ -52,7 +52,7 @@ export const ProjectContext = ({ children }) => {
       technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
       frontendUrl: "https://github.com/prasanth2817/MyBarber-App-Frontend",
       backendUrl: "https://github.com/prasanth2817/MyBarber-App-Backend",
-      liveLink: "https://ecommerce-platform-clothing.netlify.app/",
+      liveLink: "https://bookmybaber.netlify.app/",
     }
   ];
 
