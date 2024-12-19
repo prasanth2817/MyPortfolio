@@ -1,5 +1,6 @@
 import React from "react";
 import Profilephoto1 from "../Images/portfolioPhotoLight.png";
+import Profilephoto2 from "../Images/profile_pic_19_12_Light.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faFileLines } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,18 +17,11 @@ const About = () => {
         <div className="flex flex-col items-center lg:flex-row 1024x1366:flex-col xl:justify-around lg:gap-8 xl:gap-12 gap-8">
           <div className="lg:mb-0">
             <img
-              src={Profilephoto1}
+              src={Profilephoto2}
               alt="About Me"
               className="rounded-4xl md:w-9/12 1024x1366:w-9/12 1024x1366:ml-24 md:mx-16 lg:mx-2 lg:mt-2 md:my-8 lg:w-full mix-blend-luminosity transition duration-300 cursor-pointer hover:mix-blend-normal"
             />
           </div>
-          {/* <div className="lg:mb-0 overflow-hidden">
-            <img
-              src={Profilephoto1}
-              alt="About Me"
-              className="rounded-4xl md:w-9/12 1024x1366:w-9/12 1024x1366:ml-24 md:mx-16 lg:mx-2 lg:mt-2 md:my-8 lg:w-full mix-blend-luminosity transition duration-300 transform hover:scale-110 cursor-pointer hover:mix-blend-normal"
-            />
-          </div> */}
 
           <div className="">
             <p className="xl:text-2xl lg:text-lg lg:mb-4 1024x1366:text-base md:text-2xl 1024x1366:my-4 text-justify mb-4 text-cyan-600 font-medium">
