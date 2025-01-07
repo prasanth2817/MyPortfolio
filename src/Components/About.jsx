@@ -36,7 +36,7 @@ const About = () => {
             </p>
             <button className="container mx-auto w-full sm:w-1/2 1024x1366:mt-8 1024x1366:text-3xl md:w-5/12 sm:flex sm:justify-center text-xl md:text-2xl font-bold lg:font-semibold text-gray-50 hover:bg-orange-400 bg-orange-500 rounded-xl px-6 py-2 sm:px-8 md:px-6">
               <a
-                href="https://drive.google.com/file/d/18lIFqdap1OwVrGOwXbwKnjIj1wVFCuFR/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1zHJm-VHBtzMyH-Q3AxAE2wb1WwKj5_Nj/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
