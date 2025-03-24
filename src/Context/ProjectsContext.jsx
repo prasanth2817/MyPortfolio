@@ -12,14 +12,14 @@ export const ProjectContext = ({ children }) => {
   const projects = [
     {
       id: 1,
-      title: "Ecommerce Application",
+      title: "MyBarber Application",
       description:
-        "Ecommerce Clothing Hub is a sleek and user-friendly platform crafted for fashion enthusiasts. Discover the latest trends, enjoy seamless shopping, and all in one place.",
-      imageUrl: projectOne,
+        "MyBarber is an intuitive booking platform designed to streamline appointments for barbers and clients. Enhance your grooming experience with easy scheduling, personalized profiles, and real-time updates.",
+      imageUrl : MyBaberApp,
       technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
-      frontendUrl: "https://github.com/prasanth2817/Ecommerce-app-Frontend",
-      backendUrl: "https://github.com/prasanth2817/Ecommerce-app-Backend",
-      liveLink: "https://ecommerce-platform-clothing.netlify.app/",
+      frontendUrl: "https://github.com/prasanth2817/MyBarber-App-Frontend",
+      backendUrl: "https://github.com/prasanth2817/MyBarber-App-Backend",
+      liveLink: "https://bookmybaber.netlify.app/",
     },
     {
       id: 2,
@@ -34,6 +34,17 @@ export const ProjectContext = ({ children }) => {
     },
     {
       id: 3,
+      title: "Ecommerce Application",
+      description:
+        "Ecommerce Clothing Hub is a sleek and user-friendly platform crafted for fashion enthusiasts. Discover the latest trends, enjoy seamless shopping, and all in one place.",
+      imageUrl: projectOne,
+      technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
+      frontendUrl: "https://github.com/prasanth2817/Ecommerce-app-Frontend",
+      backendUrl: "https://github.com/prasanth2817/Ecommerce-app-Backend",
+      liveLink: "https://ecommerce-platform-clothing.netlify.app/",
+    },
+    {
+      id: 4,
       title: "RealEstate Listing Application",
       description:
         "A comprehensive real estate listing application built using the MERN stack (MongoDB, Express, React, Node.js). This application allows users to search for properties, manage property listings, and update property statuses.",
@@ -43,17 +54,7 @@ export const ProjectContext = ({ children }) => {
       backendUrl: "https://github.com/prasanth2817/RealEstate-App-Backend",
       liveLink: "https://realestate-listing-app.netlify.app/",
     },
-    {
-      id: 4,
-      title: "MyBarber Application",
-      description:
-        "MyBarber is an intuitive booking platform designed to streamline appointments for barbers and clients. Enhance your grooming experience with easy scheduling, personalized profiles, and real-time updates.",
-      imageUrl : MyBaberApp,
-      technologies: ["React", "Node.js", "CSS", "Express", "Bootstrap"],
-      frontendUrl: "https://github.com/prasanth2817/MyBarber-App-Frontend",
-      backendUrl: "https://github.com/prasanth2817/MyBarber-App-Backend",
-      liveLink: "https://bookmybaber.netlify.app/",
-    }
+    
   ];
 
   return (
