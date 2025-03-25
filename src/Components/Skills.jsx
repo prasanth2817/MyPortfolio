@@ -50,14 +50,14 @@ const Skills = () => {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: false, margin: "-50px" });
 
-  // Shuffle skills every 3 seconds
+  // Shuffle skills every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setSkills((prevSkills) => {
         const shuffled = [...prevSkills].sort(() => Math.random() - 0.5);
         return shuffled;
       });
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);

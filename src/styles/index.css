@@ -28,6 +28,7 @@ section {
   min-height: 100vh;
   padding: 2rem 9%;
   width: 100%;
+  overflow-y: hidden;
 }
 /* navbar starts */
 header {

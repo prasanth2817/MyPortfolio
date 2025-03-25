@@ -107,9 +107,9 @@ const About = () => {
            {/* Resume Button Animation */}
            <motion.button
               className="container mx-auto w-full sm:w-1/2 md:w-5/12 sm:flex sm:justify-center text-xl md:text-2xl font-bold lg:font-semibold text-gray-50 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-orange-400 bg-orange-500 rounded-xl px-6 py-2 sm:px-8 md:px-6"
-              initial={{ opacity: 0, y: 50 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 50 }}
+              exit={{ opacity: 0, y: 20 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
             >
               <a

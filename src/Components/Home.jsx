@@ -13,6 +13,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ParticleBackground from "../Particles/ParticleBackground";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import { motion } from "framer-motion";
 
 function Home() {
   const { darkMode } = useDarkMode();
@@ -87,7 +88,7 @@ function Home() {
             </ul>
           </div>
         </div>
-        <div className="container 1024x1366:order-1 1024x1366:top-20 mx-auto lg:mx-0 sm:ml-16 order-1 lg:order-2 w-10/12 xs:w-11/12 sm:w-3/4 lg:w-9/12 1024x1366:w-9/12 1024x1366:ml-36 1024x1366:mb-4 image relative lg:top-24 xl:ml-0 xl:mt-16">
+        {/* <div className="container 1024x1366:order-1 1024x1366:top-20 mx-auto lg:mx-0 sm:ml-16 order-1 lg:order-2 w-10/12 xs:w-11/12 sm:w-3/4 lg:w-9/12 1024x1366:w-9/12 1024x1366:ml-36 1024x1366:mb-4 image relative lg:top-24 xl:ml-0 xl:mt-16">
           {darkMode ? (
             <img
               draggable="false"
@@ -101,6 +102,42 @@ function Home() {
               className="rounded-full shadow-light-mode hover:shadow-current"
               src={HeroImageLight}
               alt=""
+            />
+          )}
+        </div> */}
+
+        <div className="container 1024x1366:order-1 1024x1366:top-20 mx-auto lg:mx-0 sm:ml-16 order-1 lg:order-2 w-10/12 xs:w-11/12 sm:w-3/4 lg:w-9/12 1024x1366:w-9/12 1024x1366:ml-36 1024x1366:mb-4 image relative lg:top-24 xl:ml-0 xl:mt-16">
+          {darkMode ? (
+            <motion.img
+              draggable="false"
+              className="rounded-full shadow-dark-mode hover:shadow-current xl:w-full"
+              src={HeroImage}
+              alt=""
+              animate={{
+                y: [0, -10, 0], // Moves up and down
+                rotate: [0, 2, -2, 0], // Small rotation effect
+              }}
+              transition={{
+                duration: 2, // Time for one full wave
+                repeat: Infinity, // Loop forever
+                ease: "easeInOut",
+              }}
+            />
+          ) : (
+            <motion.img
+              draggable="false"
+              className="rounded-full shadow-light-mode hover:shadow-current"
+              src={HeroImageLight}
+              alt=""
+              animate={{
+                y: [0, -10, 0], // Moves up and down
+                rotate: [0, 2, -2, 0], // Small rotation effect
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
             />
           )}
         </div>
