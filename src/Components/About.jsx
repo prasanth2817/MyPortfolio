@@ -61,7 +61,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="pt-20 lg:py-12 bg-gray-900">
+    <section id="about" className="pt-20 lg:py-12 bg-gray-900 overflow-hidden">
       <div className="container mx-auto lg:pt-16 lg:px-4">
         <h2 className="text-2xl md:text-4xl xl:text-5xl font-bold text-center xl:my-16 text-gray-100 mb-8">
           <FontAwesomeIcon icon={faUser} />
