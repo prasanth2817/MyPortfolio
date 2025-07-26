@@ -119,3 +119,105 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// import { useState, useCallback, useEffect } from "react";
+// import { Link, useLocation } from "react-router-dom"; 
+// import { useDarkMode } from "../Context/DarkModeContext";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faSun,
+//   faMoon,
+//   faCode,
+//   faXmark,
+//   faBarsStaggered,
+// } from "@fortawesome/free-solid-svg-icons";
+
+// const sections = [
+//   { name: "Home", id: "#home" },
+//   { name: "About", id: "#about" },
+//   { name: "Skills", id: "#skills" },
+//   { name: "Projects", id: "#projects" },
+//   { name: "Experience", id: "#experience" },
+//   { name: "Contact", id: "#contact" },
+// ];
+
+// const Navbar = () => {
+//   const { darkMode, toggleDarkMode } = useDarkMode();
+//   const [showMenu, setShowMenu] = useState(false);
+//   const location = useLocation();
+
+//   // Function to close the menu on link click
+//   const handleMenuToggle = useCallback(() => {
+//     setShowMenu((prevShowMenu) => !prevShowMenu);
+//   }, []);
+
+//   // Scroll to the correct section on route change
+//   useEffect(() => {
+//     const hash = location.hash;
+//     if (hash) {
+//       const element = document.querySelector(hash);
+//       if (element) {
+//         element.scrollIntoView({ behavior: "smooth" });
+//       }
+//     }
+//   }, [location]);
+
+//   return (
+//     <header className={`fixed top-0 h-16 w-full ${darkMode ? "bg-gray-950" : "bg-gray-100"}`}>
+//       <div className="container mx-auto flex items-center justify-between p-4">
+//         {/* Logo */}
+//         <div className={`text-2xl font-bold ${darkMode ? "text-rose-900" : "text-cyan-700"}`}>
+//           <a href="/">
+//             <FontAwesomeIcon icon={faCode} size="xl" />
+//           </a>
+//           <span className="ml-2 hidden lg:block">Prasanth.Dev</span>
+//         </div>
+
+//         {/* Dark Mode Toggle */}
+//         <button onClick={toggleDarkMode} className="w-10 h-10 flex items-center justify-center rounded-full">
+//           {darkMode ? (
+//             <FontAwesomeIcon icon={faSun} className="text-yellow-400" />
+//           ) : (
+//             <FontAwesomeIcon icon={faMoon} className="text-gray-700" />
+//           )}
+//         </button>
+
+//         {/* Mobile Menu Toggle */}
+//         <button onClick={handleMenuToggle} className="lg:hidden">
+//           {showMenu ? (
+//             <FontAwesomeIcon icon={faXmark} size="2xl" className="text-cyan-700" />
+//           ) : (
+//             <FontAwesomeIcon icon={faBarsStaggered} size="2xl" className="text-cyan-700" />
+//           )}
+//         </button>
+
+//         {/* Navbar Menu */}
+//         <nav
+//           className={`fixed top-0 left-0 w-full h-full flex items-center justify-center transition-all duration-300 ease-in-out ${
+//             showMenu ? "opacity-100" : "opacity-0 pointer-events-none"
+//           } lg:static lg:opacity-100 lg:pointer-events-auto`}
+//         >
+//           <ul className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-8 p-8 lg:p-0">
+//             {sections.map(({ name, id }) => (
+//               <li key={id}>
+//                 <Link
+//                   to={id}
+//                   className={`text-base font-semibold ${
+//                     darkMode ? "text-gray-400" : "text-gray-950"
+//                   } hover:text-blue-700`}
+//                   onClick={handleMenuToggle}
+//                 >
+//                   {name}
+//                 </Link>
+//               </li>
+//             ))}
+//           </ul>
+//         </nav>
+//       </div>
+//     </header>
+//   );
+// };
+
+// export default Navbar;
+
+
